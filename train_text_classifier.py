@@ -115,8 +115,6 @@ def get_predictions(model, data_loader, calculate_accuracy=True, predictions=Non
 
 
 class ClassifyTextWithBERT:
-    """Classify text with BERT.
-    """
     
     def __init__(self, data_dir, model_dir):
         self.data_dir = data_dir
