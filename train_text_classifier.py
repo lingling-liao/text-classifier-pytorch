@@ -184,5 +184,5 @@ class ClassifyTextWithBERT:
 
 
 if __name__ == '__main__':
-    ct = ClassifyTextWithBERT('/tf/Cowork/Task1/CallText', '/tf/Cowork/Task1/Model')
+    ct = ClassifyTextWithBERT('./CallText', './Model')
     model, class_indices = ct.fit()
